@@ -27,7 +27,7 @@ source=(
     "meloville-${pkgver}.tar.gz::https://github.com/NevPeth/meloville/archive/refs/tags/v${pkgver}.tar.gz"
 )
 
-sha256sums=('9a41f7c184c4820b0da1a880433f1dc00263155b418cd80f0b3c0b41797d7f54')
+sha256sums=('9fada7cf662cbcca78af2b2cba8b2e97deb0dd9611eae8ec031fa878c12b24f0')
 
 build() {
     cmake -B build \
