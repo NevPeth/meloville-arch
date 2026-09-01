@@ -1,7 +1,7 @@
 # Maintainer: NevPeth <nevillepeth at gmail dot com>
 pkgname=meloville-git
 _pkgname='meloville'
-pkgver=1.1.2
+pkgver=1.1.3
 pkgrel=1
 pkgdesc="A modern music player and manager built in Qt6"
 arch=('x86_64')
@@ -26,7 +26,7 @@ source=(
     "meloville-${pkgver}.tar.gz::https://github.com/NevPeth/meloville/archive/refs/tags/v${pkgver}.tar.gz"
 )
 
-sha256sums=('5953cc3bbef31b5635b42b1f3a56c00229b66d17811d5bc85c6717a55bfafc32')
+sha256sums=('85b73fbcbfd53a1b93aa3ea640f0d7d5a96f09059c87a8554b86ae50ea6a0346')
 
 build() {
     cmake -B build \
